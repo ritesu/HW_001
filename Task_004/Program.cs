@@ -1,6 +1,6 @@
-﻿int[] numbers = Enumerable.Range(0, 100).ToArray();
+﻿int[] numbers = Enumerable.Range(1, 101).ToArray();
 
-for (int a = 1; a < 101; a++)
+for (int a = 1; a < numbers.Length; a++)
 {
     int b = a % 2;
     if (b == 0)
