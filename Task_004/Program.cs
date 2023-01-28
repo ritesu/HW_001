@@ -7,6 +7,4 @@ for (int a = 1; a < numbers.Length; a++)
     {
         Console.WriteLine(a);
     }
-    numbers[a] = numbers[a] + 1;
-    
 }
