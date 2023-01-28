@@ -1,10 +1,11 @@
-﻿int[] numbers = Enumerable.Range(1, 101).ToArray();
-
-for (int a = 1; a < numbers.Length; a++)
+﻿Console.WriteLine("Введите до какого значения показать четные числа");
+int a = int.Parse(Console.ReadLine()?? "0");
+a = a + 1;
+for (int i = 1; i < a; i++)
 {
-    int b = a % 2;
+    int b = i % 2;
     if (b == 0)
     {
-        Console.WriteLine(a);
+        Console.WriteLine(i);
     }
 }
